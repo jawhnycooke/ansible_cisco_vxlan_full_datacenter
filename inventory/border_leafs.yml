@@ -1,0 +1,13 @@
+---
+boder-leafs:
+  hosts:
+    border-leaf01:
+      inventory_name: border-leaf01
+      ansible_host: 192.168.122.21
+      ansible_network_os: nxos
+
+    border-leaf02:
+      inventory_name: border-leaf02
+      ansible_host: 192.168.122.22
+      ansible_network_os: nxos
+

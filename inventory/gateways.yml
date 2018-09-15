@@ -1,0 +1,13 @@
+---
+gateways:
+  hosts:
+    gateway01:
+      inventory_name: gateway01
+      ansible_host: 192.168.122.21
+      ansible_network_os: nxos
+
+    gateway02:
+      inventory_name: gateway02
+      ansible_host: 192.168.122.22
+      ansible_network_os: nxos
+

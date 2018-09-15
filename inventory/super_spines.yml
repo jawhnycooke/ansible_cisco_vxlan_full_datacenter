@@ -1,0 +1,22 @@
+---
+super-spines:
+  hosts:
+    super-spine01:
+      inventory_name: super-spine01
+      ansible_host: 192.168.122.11
+      ansible_network_os: nxos
+
+    super-spine02:
+      inventory_name: super-spine02
+      ansible_host: 192.168.122.12
+      ansible_network_os: nxos
+
+    super-spine03:
+      inventory_name: super-spine03
+      ansible_host: 192.168.122.13
+      ansible_network_os: nxos
+
+    super-spine04:
+      inventory_name: super-spine04
+      ansible_host: 192.168.122.14
+      ansible_network_os: nxos
